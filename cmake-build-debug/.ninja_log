@@ -1,0 +1,12 @@
+# ninja log v5
+0	278	1696205124177233756	CMakeFiles/Project_1.dir/main.cpp.o	19c889e19cff8503
+280	371	1696205124269200427	Project_1	73feddc2d361614f
+4	432	1696205608790775612	CMakeFiles/Project_1.dir/src/geometry.cpp.o	9481f710e869873e
+3	433	1696205608790780195	CMakeFiles/Project_1.dir/main.cpp.o	1adbd92b0273c5b2
+4	481	1696205608839614527	CMakeFiles/Project_1.dir/test/text.cpp.o	d6ca0747d85971d7
+4	1302	1696205609656965237	lib/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o	9f273eb80f9872fb
+1303	1635	1696205609997455000	lib/libgtest.a	9edfedcf04872c3d
+5	569	1696206626610004900	CMakeFiles/Project_1.dir/main.cpp.o	1adbd92b0273c5b2
+5	511	1696206658656911455	CMakeFiles/Project_1.dir/main.cpp.o	1adbd92b0273c5b2
+5	512	1696206658656640497	CMakeFiles/Project_1.dir/src/geometry.cpp.o	9481f710e869873e
+512	632	1696206658779219581	Project_1	65e8c1d7283a824c
