@@ -63,8 +63,8 @@ build CMakeFiles/Project_1.dir/src/geometry.cpp.o: CXX_COMPILER__Project_1_unsca
   OBJECT_DIR = CMakeFiles/Project_1.dir
   OBJECT_FILE_DIR = CMakeFiles/Project_1.dir/src
 
-build CMakeFiles/Project_1.dir/test/text.cpp.o: CXX_COMPILER__Project_1_unscanned_Debug /Users/mercuric_novel0/Documents/Project$ 1/test/text.cpp || cmake_object_order_depends_target_Project_1
-  DEP_FILE = CMakeFiles/Project_1.dir/test/text.cpp.o.d
+build CMakeFiles/Project_1.dir/test/test.cpp.o: CXX_COMPILER__Project_1_unscanned_Debug /Users/mercuric_novel0/Documents/Project$ 1/test/test.cpp || cmake_object_order_depends_target_Project_1
+  DEP_FILE = CMakeFiles/Project_1.dir/test/test.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   INCLUDES = -isystem "/Users/mercuric_novel0/Documents/Project 1/lib/googletest/googletest/include" -isystem "/Users/mercuric_novel0/Documents/Project 1/lib/googletest/googletest"
   OBJECT_DIR = CMakeFiles/Project_1.dir
@@ -78,7 +78,7 @@ build CMakeFiles/Project_1.dir/test/text.cpp.o: CXX_COMPILER__Project_1_unscanne
 #############################################
 # Link the executable Project_1
 
-build Project_1: CXX_EXECUTABLE_LINKER__Project_1_Debug CMakeFiles/Project_1.dir/main.cpp.o CMakeFiles/Project_1.dir/src/geometry.cpp.o CMakeFiles/Project_1.dir/test/text.cpp.o | lib/libgtest.a || lib/libgtest.a
+build Project_1: CXX_EXECUTABLE_LINKER__Project_1_Debug CMakeFiles/Project_1.dir/main.cpp.o CMakeFiles/Project_1.dir/src/geometry.cpp.o CMakeFiles/Project_1.dir/test/test.cpp.o | lib/libgtest.a || lib/libgtest.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = lib/libgtest.a
   OBJECT_DIR = CMakeFiles/Project_1.dir

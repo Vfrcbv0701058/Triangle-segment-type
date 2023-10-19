@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES main.cpp
         src/geometry.cpp
         include/geometry.hpp
-        test/text.cpp)
+        test/test.cpp)
 add_subdirectory(lib/googletest/)
 
 add_executable(Project_1 ${SOURCE_FILES})
